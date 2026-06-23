@@ -1,0 +1,49 @@
+{
+  "categories": [
+    {
+      "id": "cat-1",
+      "libelle": "Categorie 1"
+    },
+    {
+      "id": "cat-2",
+      "libelle": "Cattttttt"
+    },
+    {
+      "id": "Py_hWyW9bos",
+      "libelle": "Informatique"
+    },
+    {
+      "id": "KuuBUGErqiE",
+      "libelle": "bbvbvvv"
+    },
+    {
+      "id": "96pvDTbumhE",
+      "libelle": "brir"
+    },
+    {
+      "id": "NU75BUm3ElU",
+      "libelle": "bincind"
+    }
+  ],
+  "products": [
+    {
+      "id": "yAEx_vjHAgY",
+      "libelle": "Nihil assumenda eu t",
+      "description": "Sit Nam deserunt ex",
+      "prix": 33,
+      "categorieId": "NU75BUm3ElU",
+      "imageUrl": "https://res.cloudinary.com/dltogpeir/image/upload/v1781778211/pcfaxg2iglnlgizcjbih.jpg",
+      "imagePublicId": "pcfaxg2iglnlgizcjbih"
+    },
+    {
+      "id": "0wb1TEqqf1g",
+      "libelle": "Velit esse quos inve",
+      "description": "Dolorum sunt laudant",
+      "prix": 58,
+      "categorieId": "96pvDTbumhE",
+      "imageUrl": "https://res.cloudinary.com/dltogpeir/image/upload/v1781791768/dgaaq7i4o6jcsv78wdeu.png",
+      "imagePublicId": "dgaaq7i4o6jcsv78wdeu"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
