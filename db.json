@@ -1,30 +1,56 @@
 {
-  "categories": [
+  "$schema": "./node_modules/json-server/schema.json",
+
+  "users": [
     {
-      "id": "cat-1",
-      "libelle": "Categorie 1"
+      "id": "user-001",
+      "email": "admin@horizon.com",
+      "password": "admin1234",
+      "role": "admin",
+      "createdAt": "2024-01-01T00:00:00.000Z"
     },
     {
-      "id": "cat-2",
-      "libelle": "Cattttttt"
+      "id": "user-002",
+      "email": "aliou@fournisseur.com",
+      "password": "pass1234",
+      "role": "fournisseur",
+      "createdAt": "2024-03-10T08:30:00.000Z"
     },
     {
-      "id": "Py_hWyW9bos",
-      "libelle": "Informatique"
-    },
-    {
-      "id": "KuuBUGErqiE",
-      "libelle": "bbvbvvv"
-    },
-    {
-      "id": "96pvDTbumhE",
-      "libelle": "brir"
-    },
-    {
-      "id": "NU75BUm3ElU",
-      "libelle": "bincind"
+      "id": "user-003",
+      "email": "fatou@fournisseur.com",
+      "password": "pass5678",
+      "role": "fournisseur",
+      "createdAt": "2024-04-15T10:00:00.000Z"
     }
   ],
+
+  "fournisseurs": [
+    {
+      "id": "fourn-001",
+      "userId": "user-002",
+      "nom": "Aliou Diallo",
+      "telephone": "+221 77 123 45 67",
+      "adresse": "Dakar, Médina"
+    },
+    {
+      "id": "fourn-002",
+      "userId": "user-003",
+      "nom": "Fatou Sow",
+      "telephone": "+221 76 987 65 43",
+      "adresse": "Thiès, Centre-ville"
+    }
+  ],
+
+  "categories": [
+    { "id": "cat-1", "libelle": "Categorie 1" },
+    { "id": "cat-2", "libelle": "Cattttttt" },
+    { "id": "Py_hWyW9bos", "libelle": "Informatique" },
+    { "id": "KuuBUGErqiE", "libelle": "bbvbvvv" },
+    { "id": "96pvDTbumhE", "libelle": "brir" },
+    { "id": "NU75BUm3ElU", "libelle": "bincind" }
+  ],
+
   "products": [
     {
       "id": "yAEx_vjHAgY",
@@ -44,6 +70,5 @@
       "imageUrl": "https://res.cloudinary.com/dltogpeir/image/upload/v1781791768/dgaaq7i4o6jcsv78wdeu.png",
       "imagePublicId": "dgaaq7i4o6jcsv78wdeu"
     }
-  ],
-  "$schema": "./node_modules/json-server/schema.json"
+  ]
 }
